@@ -120,13 +120,13 @@ h1 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    color: #1f2937;
+    color: #45202d;
 }
 
 .box {
-    height: 185px;
-    width: 185px;
-    border: 4px solid #3882f6;
+    height: 320px;
+    width: 280px;
+    border: 4px solid #dd689131;
     border-radius: 10px;
 }
 
@@ -143,14 +143,15 @@ h1 {
 }
 
 .box-wrapper figcaption {
-    font-weight: 100;
+    font-weight: 200;
     margin-top: 10px;
+    color: #45202d;
 }
 
 /* Quote section */
 
 .section {
-    background-color: #e5e7eb;
+    background-color: #f4dee961;
 }
 
 .section-container {
@@ -163,14 +164,14 @@ h1 {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1f2937;
+    color: #45202d;
 }
 
 .quote-author {
     margin: 0 auto;
     font-size: 24px;
     font-weight: 600;
-    color: #1f2937;
+    color: #45202d;
     text-align: right;
 }
 
