@@ -186,12 +186,12 @@ h1 {
 }
 
 .sign-up-wrapper {
-    background-color: #3882f6;
+    background-color: #e284a889;
     width: 1000px;
     margin: 0 auto;
     padding: 35px 150px;
     border-radius: 10px;
-    color: #e5e7eb;
+    color: #fff;
     display: flex;
     font-size: 18px;
     justify-content: space-between;
@@ -200,9 +200,9 @@ h1 {
 .sign-up-btn {
     width: 100px;
     height: 32px;
-    color: #E5E7EB;
+    color: #fff;
     background: transparent;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #fff;
     border-radius: 5px;
 }
 
@@ -217,7 +217,7 @@ h4 {
 /* Footer */
 
 .footer {
-    background-color: #1f2937;
+    background-color: #331d2589;
     color: #E5E7EB;
 }
 
