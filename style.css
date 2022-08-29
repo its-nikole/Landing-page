@@ -206,3 +206,15 @@ h1 {
 h4 {
     margin-bottom: 5px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.footer p {
+    text-align: center;
+    padding: 40px;
+}
