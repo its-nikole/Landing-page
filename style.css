@@ -43,6 +43,10 @@ a {
     margin-left: 20px;
 }
 
+.nav-link a:hover {
+    font-size: 110%
+}
+
 .logo img {
     width: 50px;
     height: 50px;
@@ -78,17 +82,34 @@ h1 {
     display: block;
     border: none;
     border-radius: 5px;
-    width: 110px;
-    height: 42px;
+    width: 150px;
+    height: 49px;
     padding: 5px 15px;
     font-size: 15px;
     font-weight: 600;
     background-color: #dd6891;
     color: #f7e2f4;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: 0.5s;
+}
+
+.hero-btn:after {
+    content: '  »';
+    opacity: 0;
+    top:14px;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .hero-btn:hover {
     cursor: pointer;
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.hero-btn:hover:after {
+    opacity: 1;
+    right: 10px;
 }
 
 .hero-text p {
