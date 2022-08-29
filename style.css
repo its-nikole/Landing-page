@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+
 .header {
     background-color: #1F2937;
     color: #fff;
@@ -94,4 +96,47 @@ h1 {
 
 .img-container p {
     color: #e5e7eb;
+}
+
+/* Main */
+
+.main {
+    background-color: #fff;
+}
+
+.main-container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+.main-container h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.box {
+    height: 185px;
+    width: 185px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 75px;
+}
+
+.box-wrapper {
+    text-align: center;
+}
+
+.box-wrapper figcaption {
+    font-weight: 100;
+    margin-top: 10px;
 }
