@@ -64,7 +64,7 @@ h1 {
     width: 600px;
 }
 
-.hero-text button {
+.hero-btn {
     display: block;
     border: none;
     border-radius: 5px;
@@ -76,7 +76,7 @@ h1 {
     color: #f9faf8;
 }
 
-.hero-text button:hover {
+.hero-btn:hover {
     cursor: pointer;
 }
 
@@ -166,4 +166,43 @@ h1 {
     font-weight: 600;
     color: #1f2937;
     text-align: right;
+}
+
+/* Sign up section */
+
+.sign-up {
+    height: 400px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-wrapper {
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 35px 150px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.sign-up-btn {
+    width: 100px;
+    height: 32px;
+    color: #E5E7EB;
+    background: transparent;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+}
+
+h4 {
+    margin-bottom: 5px;
 }
